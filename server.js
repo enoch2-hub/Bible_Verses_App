@@ -103,7 +103,7 @@ app.get('/api/user', (req, res) => {
 
 
 // Start the server
-const port = process.env.port || 4000
+const port = process.env.port || 4400
 
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
